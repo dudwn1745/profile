@@ -1,6 +1,9 @@
-## 보유한 스킬
+## 보유한 스들킬
 asp.net core, mvc, ef core, dapper, mssql, mysql, stored procedure(SP), azure cloud 등의 기술을 사용해 왔으며 
 mvc 패턴, CQRS 패턴, unit 테스트 코드, devops, logic app, web app, application insight, kusto, front door, load balancer 등의 애저 클라우드 기능들을 사용하여 개발한 경험이 있습니다.
+
+## 예제 코드
+[README 이동하기](https://github.com/dudwn1745/profile/blob/master/README2.md)
 
 ## 경력 기술서
 - [잼팟(넷마블)](#잼팟-넷마블)
@@ -131,18 +134,3 @@ KTX 고장코드 무선전송장치 프로그램
 회사에서 자체 개발한 프로그램으로 KTX 기관사 옆 자리에 위치한 PDA에서 열차 고장시 고장코드를 수신 받아 원격으로 코드를 전송해주는 프로그램을 개발
 
 기존에 KTX에만 사용하였으나, 이번에 새로 SRT 열차가 편성되면서, 무선전송장치 PDA를 SRT 열차에 맞게 프로그램 수정 및 유지보수
-
-
-
-
-# JWT Token auth
-JWT 토큰을 사용한 인증 로직 구현
-
-# Google auth
-Google OTP 라이브러리를 사용하여 인증 OTP 구현
-
-# Asp.net claim auth
-ASP.NET Core 클레임 기반 로그인 구현
-
-# Web API
-Restful API 구현
