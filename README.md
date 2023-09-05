@@ -1,6 +1,9 @@
-## 보유한 스들킬
+## 보유한 스킬
 asp.net core, mvc, ef core, dapper, mssql, mysql, stored procedure(SP), azure cloud 등의 기술을 사용해 왔으며 
-mvc 패턴, CQRS 패턴, unit 테스트 코드, devops, logic app, web app, application insight, kusto, front door, load balancer 등의 애저 클라우드 기능들을 사용하여 개발한 경험이 있습니다.
+
+mvc 패턴, CQRS 패턴, unit 테스트 코드, devops, logic app, web app, application insight, kusto, front door, load balancer 등의 
+
+Azure 클라우드 기능들을 사용하여 개발한 경험이 있습니다.
 
 ## 예제 코드
 [README 이동하기](https://github.com/dudwn1745/profile/blob/master/README2.md)
