@@ -10,8 +10,8 @@ builder.Services.AddControllersWithViews();
 // ASP.NET Core 클레임 기반 로그인 구현 -- AuthService.cs
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
 {
-	options.Cookie.Name = "AccessToken";
-	options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
+    options.Cookie.Name = "AccessToken";
+    options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
     options.Events.OnRedirectToLogin = (context) =>
     {
         var web = context.HttpContext.RequestServices.GetRequiredService<WebHelper>();
