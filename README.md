@@ -7,7 +7,7 @@ kusto query, front door, load balancer 등의
 
 Azure 클라우드 기능들을 사용하여 개발한 경험이 있습니다.
 
-## 나의 코드 스타일
+## 경력기술서에 작성한 샘플 코드 스타일
 [README 이동하기](https://github.com/dudwn1745/profile/blob/master/README2.md)
 
 ## 경력 기술서
