@@ -1,5 +1,5 @@
 ## 보유한 스킬
-asp.net core, mvc, ef core, dapper, mssql, mysql, stored procedure(SP), azure cloud 등의 기술을 사용해 왔으며 
+Java Spring, JPA, .NET Core 6.0, EF Core 7.0, MSSQL, MySQL, MSSQL, JavaScript, JQuery, Stored Procedure(SP), Azure Cloud, Git, 등의 기술을 사용해 왔으며
 
 mvc 패턴, CQRS 패턴, unit 테스트 코드, devops, logic app, web app, application insight,
 
@@ -16,27 +16,28 @@ Azure 클라우드 기능들을 사용하여 개발한 경험이 있습니다.
 - [오르비텍](#오르비텍)
 - [브이트론](#브이트론)
 
-
 ## 잼팟-넷마블
 ### 윈조이 포털, KSOP, 오피셜 등의 신규 웹 사이트 및 api 개발
-1. 윈조이 포털 사이트 mvc 패턴으로 개발된 사이트를 유지 보수
-2. 잼팟 오피셜 사이트 신규 개발
-- mvc 패턴으로 개발하였으며 애저 어플리케이션 인사이트 적용
-- 채용 공고 페이지 ajax로 페이징 처리하였으며 애저 blob에 올라간 데이터 불러와서 노출
-- PC/Mobile MapControllerRoute 구분하여 페이지 작업 처리
-2. 신규 CMS KSOP 사이트 개발
-- 클린 아키텍처를 적용하였으며 기존 mvc 패턴하고 DI(의존성 주입)하여 병행하여 개발
-- asp.net core 클레임 기반의 cookie 로그인 인증 프로세스 개발
-- 로그인 antiforgery 적용 및 2차 인증 구글 otp 라이브러리 코드 적용
-- dapper 사용하여 SP 프로시저 호출
-- 애저 스토리지 테이블을 생성하여 애저 테이블에서 유저 관련 조회/수정/삭제를 처리
-- 애저 kusto 쿼리를 사용하여 어플리케이션 인사이트에서 오류 모니터링
-- 애저 logic app을 사용하여 배치 잡 처럼 오류모니터링을 신규 개발
-3. 신규 유저용 KSOP 사이트 개발 - mysql 사용
-- 클린 아키텍처를 적용하여 백엔드용 api 개발 및 swagger 적용
-- 로그인 프로세스 개발 JWT 토큰을 사용하여 액세스 토큰 리프레시 토큰을 호출하는 api를 개발
-- 유저 관련 데이터는 SP 없이 엔티티 프레임 워크를 사용하여 디비 저장
-- 단위 테스트를 병행하여 개발
+#### 1. 윈조이 포털 사이트
+- 윈조이 포털 사이트의 유지 보수 및 CMS에서 요청하는 API 신규 개발
+- 잼팟 오피셜 사이트의 신규 개발 및 Azure Application Insight 적용
+- 채용 공고 페이지의 Ajax 페이징 처리 및 PC/Mobile 구분하여 페이지 작업 처리
+
+#### 2. 관리자용 WPL CMS 개발
+- 구글 OTP 라이브러리를 사용한 2차 인증 구현
+- 신규 WPL CMS 사이트 개발, 클린 아키텍처와 ASP.NET Core 기반의 로그인 인증 프로세스 구현
+- 애저 스토리지 테이블 및 Kusto 쿼리를 활용한 오류 모니터링 로직 앱 개발
+
+#### 3. 유저용 KSOP 사이트 개발
+- 클린 아키텍처 및 DDD 패턴을 적용한 백엔드 API 개발 및 Swagger 적용
+- JWT 토큰 기반의 로그인 프로세스 구현 및 구글 OTP 라이브러리를 사용한 2차 인증 구현
+- 애저 데브옵스를 활용한 CI/CD 구축
+- EF Core를 활용한 유저 및 대회 관련 데이터 처리 및 단위 테스트 수행
+
+#### 4. 관리자용 KSOP CMS 개발
+개발환경: MySQL, Java Spring Framework
+- MVC 패턴을 활용한 대회 및 갤러리 관리 프로그램 개발
+- JPA ORM을 이용한 데이터 관리 및 부트스트랩을 활용한 HTML 개발
 
 ## 지오시스-큐텐
 1. 배송시스템 업무
