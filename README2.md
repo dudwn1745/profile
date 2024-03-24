@@ -16,7 +16,7 @@ JWT 토큰을 사용한 인증 로직 구현
 # Google auth
 [Google OTP 라이브러리를 사용하여 인증 OTP 구현](https://github.com/dudwn1745/profile/blob/master/Service/GoogleAuthService.cs)
 
-# Asp.net claim auth
+# Asp.Net Core Claim Auth
 ASP.NET Core 클레임 기반 로그인 구현
 
 [시작 프로그램](https://github.com/dudwn1745/profile/blob/master/Program.cs)
