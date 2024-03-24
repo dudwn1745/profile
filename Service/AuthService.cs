@@ -2,6 +2,9 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using auth.Models;
 
+/// <summary>
+/// ASP.NET Core 클레임 기반 로그인 구현
+/// </summary>
 public class AuthService
 {
     private readonly IHttpContextAccessor _context;
