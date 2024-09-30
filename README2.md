@@ -28,4 +28,5 @@ Restful API 구현
 
 [API 컨트롤러](https://github.com/dudwn1745/profile/blob/master/Controllers/ApiController.cs)
 
-[MediatR 사용한 핸들러](https://github.com/dudwn1745/profile/blob/master/Handler/GetUserInfoQuery.cs)
+[MediatR 사용한 핸들러](https://github.com/dudwn1745/profile/tree/master/Handler)
+
