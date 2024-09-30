@@ -34,5 +34,5 @@ Restful API 구현
 
 [Grpc 서비스](https://github.com/dudwn1745/profile/blob/master/Service/GrpcService.cs)
 
-[Grpc 클라이언트](https://github.com/dudwn1745/profile/blob/master/Controllers/ApiController.cs)
+[Grpc 클라이언트](https://github.com/dudwn1745/profile/blob/master/Controllers/ApiController.cs#L57)
 
