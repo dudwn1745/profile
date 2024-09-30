@@ -30,3 +30,9 @@ Restful API 구현
 
 [MediatR 사용한 핸들러](https://github.com/dudwn1745/profile/tree/master/Handler)
 
+# Grpc
+
+[Grpc 서비스](https://github.com/dudwn1745/profile/blob/master/Service/GrpcService.cs)
+
+[Grpc 클라이언트](https://github.com/dudwn1745/profile/blob/master/Controllers/ApiController.cs)
+
