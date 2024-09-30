@@ -5,6 +5,7 @@
 * ASP.NET
   * .NET Core 8.0
   * .NET Core 6.0
+  * Rest API, Grpc
   * .NET Framework 4.5 MVC
   * Entity Framework, Dapper, Stored Procedure(SP)
   * JQeury, JavaScript, Alpine.js
