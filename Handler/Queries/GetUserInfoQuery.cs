@@ -1,5 +1,5 @@
 
-namespace Ksop.App.Application.Pub.Queries
+namespace Auth.Queries
 {
     [Authorize]
     public class GetUserInfoQuery : IRequest<UserInfoViewModel>
