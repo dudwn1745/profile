@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+//회원 가입 응답 모델
+message UserResponseModel {	
+	string code = 1;		//결과 코드
+	string message = 2;		//결과 메시지
+
+	message Data{
+		int32 userId = 1;	//유저의 아이디
+		int32 clientIp = 1;	//클라이언트 IP
+		int32 email = 1;	//이메일 주소
+		int32 nickname = 1;	//닉네임
+	}
+
+	Data data = 3;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "Request.proto";
+import "Response.proto";
+
+service UserService {
+	//유저가 환불페이지 접속한 정보를 저장
+	rpc JoinUser(RequestModel) returns (ResponseModel);
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+
+//회원 가입 관련 요청 모델
+message UserRequestModel {
+	string UserId = 1;			//유저 아이디
+	string Nickname = 2;		//닉네임
+	string Password = 3;		//비밀번호
+	string ConfirmPassword = 4;	//비밀번호 확인
+	string Email = 5;			//이메일 주소
+	string ClientIp = 6;		//아이피 주소
+}
