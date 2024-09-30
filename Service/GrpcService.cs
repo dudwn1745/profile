@@ -22,7 +22,7 @@ public class GrpcService : UserService.GreeterBase
     /// <returns></returns>
     public override Task<UserResponseModel> JoinUser(UserRequestModel request, ServerCallContext context)
     {
-        PcPokerExchangeInfoModel result = await _mediator.Send(new PcPokerExchangeInfoQuery
+        PcPokerExchangeInfoModel result = await _mediator.Send(new JoinUserCommand
         {
             Cn = request.Cn,
             ClientIp = request.ClientIp,
@@ -35,7 +35,10 @@ public class GrpcService : UserService.GreeterBase
             Message = "success",
             Data = new UserResponseModel.Types.Data()
             {
-                SeqNo = userSeqno
+                UserId = result.UserId,
+                ClientIp = result.ClientIp,
+                Email = result.Email,
+                Nickname = result.Nickname
             }
         }
     }
